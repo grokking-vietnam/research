@@ -1,3 +1,4 @@
 # Structure of this folder
-- Create a sub-folder inside *tasks* to store your tasks output.
-- 
+
+/tasks: include materials / notes collected by each member of the group while researching
+/notes: consolidated and organized 
