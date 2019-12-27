@@ -16,8 +16,10 @@ Khi client app kết nối đến một node trong ES cluster, node được k�
 Tất cả các node trong cluster đều sẽ chứa thông tin metadata về việc shard nào sẽ được lưu trữ trong node nào. 
 
 **Scalability**
+TBD
 
 **High-availability**
+TBD
 
 **Consistency**
 
@@ -40,6 +42,7 @@ Các node của Redis cũng được kết nối với nhau theo giao thức Gos
 Khi mở rộng cluster bằng cách thêm các nodes mới vào, các node mới sẽ chiếm dụng các hashslots từ các node cũ.
 
 **Scalability**
+TBD
 
 **High-availability**
 Để đảm bảo được tính HA, có thể triển khai các node trong cluster theo mô hình master-slave. Ví dụ như trong hình minh hoạ ở trên, cluster có thể bao gồm nhiều M1, M2, ... Mn. Mỗi master có thể có 1 hoặc nhiều replica đóng vai trò slave. Dữ liệu sẽ được ghi ở node master và được đọc từ tất cả các node (master lẫn slave).
@@ -62,6 +65,7 @@ Mỗi node sẽ có quản lý một range các token. Khi một record được
 Các node Cassandra được kết nối với nhau theo giao thức Gossip.
 
 **Scalability**
+TBD
 
 **High-availability**
 
