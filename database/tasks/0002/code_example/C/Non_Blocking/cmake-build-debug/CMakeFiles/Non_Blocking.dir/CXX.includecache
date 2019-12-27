@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/study/networking/Non_Blocking/data.h
+memory.h
+-
+
+/study/networking/Non_Blocking/main.cpp
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+pthread.h
+-
+sys/epoll.h
+-
+data.h
+/study/networking/Non_Blocking/data.h
+

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/deps/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/httpclient-4.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/httpcore-4.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/javax.annotation-api-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/servlet-api-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/deps/slf4j-log4j12-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

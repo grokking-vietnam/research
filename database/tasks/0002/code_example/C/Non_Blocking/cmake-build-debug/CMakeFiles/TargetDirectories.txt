@@ -1,0 +1,3 @@
+/study/networking/Non_Blocking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/study/networking/Non_Blocking/cmake-build-debug/CMakeFiles/Non_Blocking.dir
+/study/networking/Non_Blocking/cmake-build-debug/CMakeFiles/edit_cache.dir
