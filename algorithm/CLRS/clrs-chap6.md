@@ -6,7 +6,7 @@ Heap is an array object but logically viewed as a binary tree. This tree ‘s no
 
 ## Attributes:
 
-   Length: number of elements in the array containing the heap
+-   Length: number of elements in the array containing the heap
     
 -   Heap-size: number of element in the heap.
     
