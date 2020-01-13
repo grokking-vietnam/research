@@ -46,7 +46,6 @@ void aeMain(aeEventLoop *eventLoop) {
 }
 ```
 
-
 ```
 int aeProcessEvents(aeEventLoop *eventLoop, int flags)
 ```
@@ -94,9 +93,13 @@ Câu hỏi:
 
 ## Quá trình 1 client kết nối vào redis
 
-
+- 1 socket được thiết lập và lưu giữ trong biến clients của struct server.
+- query sẽ được gửi vào socket liên tục.
 
 ## Quá trình 1 client gửi 1 câu lệnh để server xử lý
 
 
-## Quá trình 
+
+
+## Tham khảo
+- https://hellokangning.github.io/en/post/redis-internals-file-event-handling/
