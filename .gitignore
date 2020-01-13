@@ -1,2 +1,3 @@
 # Ignore for webstorm
 .idea
+.DS_Store

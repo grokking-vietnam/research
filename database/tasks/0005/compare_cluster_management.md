@@ -16,9 +16,11 @@ Khi client app kết nối đến một node trong ES cluster, node được k�
 Tất cả các node trong cluster đều sẽ chứa thông tin metadata về việc shard nào sẽ được lưu trữ trong node nào. 
 
 **Scalability**
+
 TBD
 
 **High-availability**
+
 TBD
 
 **Consistency**
@@ -42,6 +44,7 @@ Các node của Redis cũng được kết nối với nhau theo giao thức Gos
 Khi mở rộng cluster bằng cách thêm các nodes mới vào, các node mới sẽ chiếm dụng các hashslots từ các node cũ.
 
 **Scalability**
+
 TBD
 
 **High-availability**
@@ -65,6 +68,7 @@ Mỗi node sẽ có quản lý một range các token. Khi một record được
 Các node Cassandra được kết nối với nhau theo giao thức Gossip.
 
 **Scalability**
+
 TBD
 
 **High-availability**
