@@ -1,3 +1,4 @@
 # Ignore for webstorm
 .idea
 .DS_Store
+operating_systems/sample_code/a.out
