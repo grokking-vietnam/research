@@ -1,4 +1,5 @@
 # Ignore for webstorm
 .idea
 .DS_Store
-operating_systems/sample_code/a.out
+operating_systems/sample_code/*.out
+operating_systems/os_from_scratch/*.bin
