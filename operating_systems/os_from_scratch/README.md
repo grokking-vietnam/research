@@ -4,7 +4,7 @@ This folder include the sample code made by studying using this tutorial: https:
 Install Homebrew
 Install qemu and nasm: `brew install qemu nasm`
 
-**Compile**
+# How to Compile and run
 
 > nasm -fbin ***assembly_code*** -o ***output***
 
