@@ -17,3 +17,6 @@ Vài thuộc tính quan trọng của inode:
 - i_blocks: the number of blocks used by the file (all blocks, not just data); this is only used by the quota subsystem
 - i_op, i_fop: pointers to operations structures: struct inode_operations and struct file_operations; i_mapping->a_ops contains a pointer to struct address_space_operations.
 - i_count: the inode counter indicating how many kernel components use it.
+
+Tham khảo:
+- https://linux-kernel-labs.github.io/master/labs/filesystems_part2.html
