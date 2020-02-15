@@ -1,0 +1,1 @@
+A simple utility to demonstrate how memory and system works
